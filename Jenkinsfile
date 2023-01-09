@@ -9,7 +9,7 @@ pipeline {
      triggers { upstream(upstreamProjects: 'devops13-pipeline/basic-pipeline', threshold: hudson.model.Result.SUCCESS) }
     stages {
         
-        stage('build'){
+        stage('build test'){
           
             steps{
             
