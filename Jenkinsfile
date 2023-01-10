@@ -1,5 +1,6 @@
 pipeline {
       agent any
+    // added tools
     tools { maven 'maven36' }
     options {
             buildDiscarder(logRotator(numToKeepStr: '5'))
