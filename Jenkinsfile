@@ -2,6 +2,8 @@ pipeline {
       agent any
     // added tools
       // in development branch
+      
+      // modified in online git repo in main branch
     tools { maven 'maven36' }
     options {
             buildDiscarder(logRotator(numToKeepStr: '5'))
