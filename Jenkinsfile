@@ -1,6 +1,6 @@
 pipeline {
       agent any
-// webhook testing
+
     tools { maven 'maven36' }
     options {
             buildDiscarder(logRotator(numToKeepStr: '5'))
